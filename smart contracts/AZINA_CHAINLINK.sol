@@ -39,7 +39,7 @@ contract AZINA_CHAINLINK is ReentrancyGuard{
     address  STABLECOIN = 0x04068DA6C83AFCFA0e13ba15A6696662335D5B75; //mainnet for USDC
     address  constant COLLATERAL_ADDRESS = 0xb3654dc3D10Ea7645f8319668E8F54d2574FBdC8; //chainlink mainnet
     uint256 constant COLLATERAL_DECIMALS = 18;
-    address constant AZINA_VERIFICATION = ""; //verification contract
+    address constant AZINA_VERIFICATION = 0x660280187d6776aDBB0b217926329c1c0f07C2a3; //verification contract
     address constant PRICE_FEED = 0x221c773d8647bc3034e91a0c47062e26d20d97b4; // LINK/USD 
 
     //USD PriceFeed

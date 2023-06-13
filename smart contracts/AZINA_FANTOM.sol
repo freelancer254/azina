@@ -33,7 +33,7 @@ contract AZINA_FTM is ReentrancyGuard{
     address constant UNISWAP_V2_ROUTER = 0xF491e7B69E4244ad4002BC14e878a34207E38c29; //Spookyswap router mainnet
     address  constant WFTM = 0x21be370D5312f44cB42ce377BC9b8a0cEF1A4C83; //mainnet for WFTM
     address  STABLECOIN = 0x04068DA6C83AFCFA0e13ba15A6696662335D5B75; //mainnet for USDC
-    address constant AZINA_VERIFICATION = ""; //verification contract
+    address constant AZINA_VERIFICATION = 0x660280187d6776aDBB0b217926329c1c0f07C2a3; //verification contract
     address constant PRICE_FEED = 0xf4766552d15ae4d256ad41b6cf2933482b0680dc; // FTM/USD
 
 
