@@ -60,10 +60,9 @@ async def verify_address(address:str = Body()):
 
             #Build tx for addAddressToWhiteList
             tx = verification_contract.functions.addToWhiteList([Web3.to_checksum_address(address)]).build_transaction({
-                'chainId':80001,
+                'chainId':250,
                 'gas':2500000,
-                'maxFeePerGas':w3.to_wei('2','gwei'),
-                'maxPriorityFeePerGas':w3.to_wei('2','gwei'),
+                'gasPrice':w3.to_wei('200','gwei'),
                 'nonce':nonce
             })
             #sign with private key
@@ -122,10 +121,9 @@ async def repay_loan(data:dict = Body()):
 
             #Build tx for processLoanRequest
             tx = azina_contract.functions.Repayment(int(loan[0]),amount).build_transaction({
-                'chainId':80001,
+                'chainId':250,
                 'gas':2500000,
-                'maxFeePerGas':w3.to_wei('2','gwei'),
-                'maxPriorityFeePerGas':w3.to_wei('2','gwei'),
+                'gasPrice':w3.to_wei('200','gwei'),
                 'nonce':nonce
             })
             #sign with private key
@@ -184,10 +182,9 @@ async def process_loan(data:dict = Body()):
 
             #Build tx for processLoanRequest
             tx = azina_contract.functions.processLoanRequest(int(loan[0]),loan_details.get('amount'),loan_details.get('interest_rate'),loan_details.get('fx_rate')).build_transaction({
-                'chainId':80001,
+                'chainId':250,
                 'gas':2500000,
-                'maxFeePerGas':w3.to_wei('2','gwei'),
-                'maxPriorityFeePerGas':w3.to_wei('2','gwei'),
+                'gasPrice':w3.to_wei('200','gwei'),
                 'nonce':nonce
             })
             #sign with private key
