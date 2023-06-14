@@ -1,0 +1,42 @@
+[
+  {
+    "id": "mpesa",
+    "paymentMethodId": 1,
+    "icon": "mpesa.png",
+    "name": "Mpesa Kenya",
+    "accountNumber": "0700102030",
+    "currency": "kes",
+    "symbol": "KES",
+    "currencyIcon": "kenya.png"
+  },
+  {
+    "id": "airtel",
+    "paymentMethodId": 2,
+    "icon": "airtel.png",
+    "name": "Airtel Money Kenya",
+    "accountNumber": "0780302010",
+    "currency": "kes",
+    "symbol": "KES",
+    "currencyIcon": "kenya.png"
+  },
+  {
+    "id": "kuda",
+    "paymentMethodId": 3,
+    "icon": "kuda.png",
+    "name": "Kuda Bank",
+    "accountNumber": "0123456789012",
+    "currency": "ngn",
+    "symbol": "NGN",
+    "currencyIcon": "nigeria.png"
+  },
+  {
+    "id": "equity",
+    "paymentMethodId": 4,
+    "icon": "equity.png",
+    "name": "Equity Bank Limited",
+    "accountNumber": "06102030405060",
+    "currency": "kes",
+    "symbol": "KES",
+    "currencyIcon": "kenya.png"
+  }
+]

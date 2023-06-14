@@ -1,0 +1,18 @@
+[
+  {
+    "id": "fantom",
+    "name": "Fantom (FTM)",
+    "decimals": 18,
+	  "isERC20":false,
+    "erc20Address": "",
+    "priceFeedAddress": "0xf4766552D15AE4d256Ad41B6cf2933482B0680dc"
+  },
+  {
+    "id": "link",
+    "name": "LINK (CHAINLINK)",
+    "decimals": 18,
+	  "isERC20":true,
+    "erc20Address": "0xb3654dc3D10Ea7645f8319668E8F54d2574FBdC8",
+    "priceFeedAddress": "0x221C773d8647BC3034e91a0c47062e26D20d97B4"
+  }]
+  
