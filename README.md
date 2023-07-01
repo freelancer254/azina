@@ -1,7 +1,7 @@
 # Azina Finance
 ![alt text](https://github.com/freelancer254/azina/blob/main/images/azina.PNG?raw=true)
 Azina offers crypto backed loans for local fiat. Users are able to request and pay for loans in their own local currency 
-or currency of choice. With Azina, users can borrow KES against LINK without worrying about the USD exchange rate volatility, misuse of their collateral and enjoy 
+or currency of choice. With Azina, users can borrow KES against FTM without worrying about the USD exchange rate volatility, misuse of their collateral and enjoy 
 decentralized collateral management.
 
 ## Problems That Azina Solves
@@ -43,8 +43,8 @@ Loan disbursement and repayment is also simulated
 
 ## Contract Addresses
 * [Azina verification](https://ftmscan.com/address/0x660280187d6776aDBB0b217926329c1c0f07C2a3#code) - Manages verification of accounts
-* [Azina chainlink](https://ftmscan.com/address/0xF2a394C5ec03bCCD6d01e2288F061D099C1e2e4E#code) - Manages loans against ChainLink
 * [Azina Fantom](https://ftmscan.com/address/0x3EaC5be319fAD81f3B55E696f3c4ce25A8B78256#code) - Manages loans against FTM
+* [Azina chainlink](https://ftmscan.com/address/0xF2a394C5ec03bCCD6d01e2288F061D099C1e2e4E#code) - Manages loans against ChainLink
 
 ## Built With
 * [Fantom Opera](https://fantom.foundation/) - Smart Contract Deployment
