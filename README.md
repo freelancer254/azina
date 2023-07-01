@@ -24,7 +24,7 @@ to the platform, when the loan to value (LTV) reaches the liquidation threshold,
 
 
 ## Video Demonstration
-[Video On Youtube](https://www.youtube.com/)
+[Video On Youtube](https://www.youtube.com/watch?v=CTfiDJr-tDc)
 
 ## Get Started Here
 ```
